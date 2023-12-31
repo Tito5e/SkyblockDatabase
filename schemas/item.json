@@ -2,7 +2,19 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "id": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
     "type": "object",
-    "required": ["id", "type", "name", "lore", "rarity"],
+    "required": [
+        "id",
+        "type",
+        "name",
+        "lore",
+        "rarity",
+        "sellable",
+        "tradable",
+        "auctionable",
+        "reforgeable",
+        "enchantable",
+        "museum"
+    ],
     "additionalProperties": false,
     "properties": {
         "id": {
@@ -111,6 +123,10 @@
 
         "status": {
             "$ref": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/status.json"
+        },
+
+        "$schema": {
+            "type": "string"
         }
     }
 }
