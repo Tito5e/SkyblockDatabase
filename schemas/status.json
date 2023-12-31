@@ -1,0 +1,159 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/status.json",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "health": {
+            "type": "number"
+        },
+        "defense": {
+            "type": "number"
+        },
+        "strength": {
+            "type": "number"
+        },
+        "intelligence": {
+            "type": "number"
+        },
+        "crit_chance": {
+            "type": "number"
+        },
+        "crit_damage": {
+            "type": "number"
+        },
+        "bonus_attack_speed": {
+            "type": "number"
+        },
+        "ability_damage": {
+            "type": "number"
+        },
+        "true_defense": {
+            "type": "number"
+        },
+        "ferocity": {
+            "type": "number"
+        },
+        "health_regen": {
+            "type": "number"
+        },
+        "vitality": {
+            "type": "number"
+        },
+        "mending": {
+            "type": "number"
+        },
+        "swing_range": {
+            "type": "number"
+        },
+
+        "mining_speed": {
+            "type": "number"
+        },
+        "mining_fortune": {
+            "type": "number"
+        },
+        "farming_fortune": {
+            "type": "number"
+        },
+        "foraging_fortune": {
+            "type": "number"
+        },
+        "breaking_power": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 11
+        },
+        "pristine": {
+            "type": "number"
+        },
+
+        "alchemy_wisdom": {
+            "type": "number"
+        },
+        "carpentry_wisdom": {
+            "type": "number"
+        },
+        "combat_wisdom": {
+            "type": "number"
+        },
+        "enchanting_wisdom": {
+            "type": "number"
+        },
+        "farming_wisdom": {
+            "type": "number"
+        },
+        "fishing_wisdom": {
+            "type": "number"
+        },
+        "foraging_wisdom": {
+            "type": "number"
+        },
+        "mining_wisdom": {
+            "type": "number"
+        },
+        "runecrafting_wisdom": {
+            "type": "number"
+        },
+        "social_wisdom": {
+            "type": "number"
+        },
+        "taming_wisdom": {
+            "type": "number"
+        },
+
+        "speed": {
+            "type": "number"
+        },
+        "magic_find": {
+            "type": "number"
+        },
+        "pet_luck": {
+            "type": "number"
+        },
+        "sea_creature_chance": {
+            "type": "number"
+        },
+        "fishing_speed": {
+            "type": "number"
+        },
+        "bonus_pest_chance": {
+            "type": "number"
+        },
+
+        "rift_time": {
+            "type": "number"
+        },
+        "mana_regen": {
+            "type": "number"
+        },
+        "rift_damage": {
+            "type": "number"
+        },
+        "hearts": {
+            "type": "number"
+        },
+
+        "absorption": {
+            "type": "number"
+        },
+        "damage": {
+            "type": "number"
+        },
+        "fuel": {
+            "type": "number"
+        },
+        "heat": {
+            "type": "number"
+        },
+        "mana": {
+            "type": "number"
+        },
+        "overflow": {
+            "type": "number"
+        },
+        "true_damage": {
+            "type": "number"
+        }
+    }
+}
