@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
+    "id": "AGARIMOO_RING",
+    "type": "ACCESSORY",
+    "name": "Agarimoo Ring",
+    "lore": [],
+    "rarity": "UNCOMMON",
+
+    "sellable": false,
+    "tradable": true,
+    "auctionable": true,
+    "reforgeable": false,
+    "enchantable": false,
+    "museum": false,
+    "rift_transferrable": false,
+    "soulbound": false,
+
+    "status": {
+        "fishing_wisdom": 1,
+        "fishing_speed": 2
+    }
+}

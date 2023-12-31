@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
+    "id": "AGARIMOO_TALISMAN",
+    "type": "ACCESSORY",
+    "name": "Agarimoo Talisman",
+    "lore": [],
+    "rarity": "COMMON",
+
+    "sellable": false,
+    "tradable": true,
+    "auctionable": true,
+    "reforgeable": false,
+    "enchantable": false,
+    "museum": false,
+    "rift_transferrable": false,
+    "soulbound": false,
+
+    "status": {
+        "fishing_speed": 1
+    }
+}
