@@ -1,0 +1,116 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
+    "type": "object",
+    "required": ["id", "type", "name", "lore", "rarity"],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "ACCESSORY",
+
+                "BELT",
+                "BRACELET",
+                "CLOAK",
+                "GLOVES",
+                "NECKLACE",
+
+                "HELMET",
+                "CHESTPLATE",
+                "LEGGINGS",
+                "BOOTS",
+
+                "SWORD",
+                "LONGSWORD",
+
+                "BOW",
+                "SHORTBOW",
+
+                "WAND",
+
+                "PICKAXE",
+                "DRILL",
+                "GAUNTLET",
+
+                "AXE",
+
+                "HOE",
+
+                "SHOVEL",
+
+                "FISHING_ROD",
+                "FISHING_WEAPON",
+
+                "SHEARS",
+
+                "ARROW_POISON",
+                "BAIT",
+                "POWER_STONE",
+                "REFORGE_STONE",
+
+                "RIFT_TIMECHARM",
+                "COSMETIC",
+                "MOMENTO",
+                "ITEM",
+                "NO_TYPE"
+            ]
+        },
+        "name": {
+            "type": "string"
+        },
+        "lore": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "rarity": {
+            "type": "string",
+            "enum": [
+                "COMMON",
+                "UNCOMMON",
+                "RARE",
+                "EPIC",
+                "LEGENDARY",
+                "MYTHIC",
+                "DIVINE",
+                "ULTIMATE",
+                "SPECIAL",
+                "VERY_SPECIAL",
+                "ADMIN"
+            ]
+        },
+
+        "sellable": {
+            "type": "boolean"
+        },
+
+        "tradable": {
+            "type": "boolean"
+        },
+
+        "auctionable": {
+            "type": "boolean"
+        },
+
+        "reforgeable": {
+            "type": "boolean"
+        },
+
+        "enchantable": {
+            "type": "boolean"
+        },
+
+        "museum": {
+            "type": "boolean"
+        },
+
+        "status": {
+            "$ref": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/status.json"
+        }
+    }
+}
