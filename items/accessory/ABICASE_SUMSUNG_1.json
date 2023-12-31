@@ -20,5 +20,7 @@
     "auctionable": true,
     "reforgeable": false,
     "enchantable": false,
-    "museum": false
+    "museum": false,
+    "rift_transferrable": false,
+    "soulbound": false
 }

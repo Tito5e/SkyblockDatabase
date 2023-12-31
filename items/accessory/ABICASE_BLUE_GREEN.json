@@ -19,6 +19,8 @@
     "reforgeable": false,
     "enchantable": false,
     "museum": false,
+    "rift_transferrable": false,
+    "soulbound": false,
 
     "status": {
         "foraging_wisdom": 1.5

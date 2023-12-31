@@ -1,10 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
-    "id": "AGARIMOO_ARTIFACT",
+    "id": "AGARIMOO_TALISMAN",
     "type": "ACCESSORY",
-    "name": "Agarimoo Artifact",
+    "name": "Agarimoo Talisman",
     "lore": [],
-    "rarity": "RARE",
+    "rarity": "COMMON",
 
     "sellable": false,
     "tradable": true,
@@ -16,8 +16,6 @@
     "soulbound": false,
 
     "status": {
-        "fishing_wisdom": 1,
-        "farming_wisdom": 1,
-        "fishing_speed": 3
+        "fishing_speed": 1
     }
 }
