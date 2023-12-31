@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
+    "id": "ABICASE_SUMSUNG_1",
+    "type": "ACCESSORY",
+    "name": "Sumsung© G3 Abicase",
+    "lore": [
+        "<gray>Adds <green>+1 <gray>contact slot.",
+        "",
+        "<gray>Grants <gold>+1 Magical Power",
+        "<gray>per <green>2 <gray>contacts in your",
+        "<gray>Abiphone.",
+        "",
+        "<dark_gray>Only ONE case will have an",
+        "<dark_gray>effect while in accessory bag."
+    ],
+    "rarity": "RARE",
+
+    "sellable": false,
+    "tradable": true,
+    "auctionable": true,
+    "reforgeable": false,
+    "enchantable": false,
+    "museum": false
+}

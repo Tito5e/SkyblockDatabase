@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
+    "id": "ABICASE_BLUE_BLUE",
+    "type": "ACCESSORY",
+    "name": "Actually Blue™ Abicase",
+    "lore": [
+        "<gray>Grants <gold>+1 Magical Power",
+        "<gray>per <green>2 <gray>contacts in your",
+        "<gray>Abiphone.",
+        "",
+        "<dark_gray>Only ONE case will have an",
+        "<dark_gray>effect while in accessory bag."
+    ],
+    "rarity": "RARE",
+
+    "sellable": false,
+    "tradable": true,
+    "auctionable": true,
+    "reforgeable": false,
+    "enchantable": false,
+    "museum": false,
+
+    "status": {
+        "mining_wisdom": 1.5
+    }
+}

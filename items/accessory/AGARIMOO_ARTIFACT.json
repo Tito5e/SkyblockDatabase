@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Tito5e/SkyblockDatabase/main/schemas/item.json",
+    "id": "AGARIMOO_ARTIFACT",
+    "type": "ACCESSORY",
+    "name": "Agarimoo Artifact",
+    "lore": [],
+    "rarity": "RARE",
+
+    "sellable": false,
+    "tradable": true,
+    "auctionable": true,
+    "reforgeable": false,
+    "enchantable": false,
+    "museum": false,
+
+    "status": {
+        "fishing_wisdom": 1,
+        "farming_wisdom": 1,
+        "fishing_speed": 3
+    }
+}
